@@ -1,4 +1,4 @@
-# ProfNet:Are they friends?
+# ProfNet : Are they friends?
 
 http://u102034038.22web.org/prof_relation.html
 
