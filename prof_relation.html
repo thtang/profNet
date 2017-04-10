@@ -88,7 +88,7 @@
                 .on("drag", dragged)
                 .on("end", dragended))
             .on("dblclick", function(d) {
-                $("#prof_info").append("<p id='prof_name'><b>Professor name: </b>" + d.id + "<br><b>Department: </b>" + d.department + "</p>");
+                $("#prof_info").append("<p id='prof_name'><h3><b>Professor name: </b>" + d.id + "<br><b>Department: </b>" + d.department + "</h3></p>");
                 $('#myModal').modal('toggle');
                 WordCloud(document.getElementById('my_canvas'), {
                     gridSize: Math.round(10 * $('#my_canvas').width()),
@@ -162,16 +162,16 @@
 <div id="myModal" class="modal  col-md-offset-2  fade ">
     <div class="modal-header ">
         <button type="button" onclick="$('#prof_name').remove()" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Professor information</h4>
+        <h4 class="modal-title"><b>Professor information</b></h4>
     </div>
     <div id="context_block" class="modal-body col-md-offset-2">
-        <img src="Tsinghua_University_logo.png" height="80" width="200"></img>
+        <img src="sys_1163_4248384_62741.gif" height="80" width="350"></img>
         <p>
-        <div id = "prof_info">
-    </div>
-    <br>
-        <h4 class="modal-title">Abstract cloud</h4>
-        <canvas id="my_canvas" width="400" height="200"></canvas>
+            <div id="prof_info">
+            </div>
+            <br>
+            <h4 class="modal-title">Abstract cloud</h4>
+            <canvas id="my_canvas" width="400" height="200"></canvas>
     </div>
     <div class='tableauPlaceholder modal-body' id='viz1491795404778' style='position: relative'>
         <noscript>
@@ -203,7 +203,8 @@
     </script>
     <div class="modal-footer ">
         Want a bigger one Viz ? <a href="https://goo.gl/ZD1USx" target="_blank"><font color="#1E90FF"><b>Click here<b></font></a>
-        <br><br>
+        <br>
+        <br>
         <button type="button" onclick="$('#prof_name').remove()" class="btn btn-default" data-dismiss="modal">Close</button>
     </div>
 </div>
