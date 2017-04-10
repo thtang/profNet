@@ -1,6 +1,6 @@
 # ProfNet : Are they friends?
 
-http://u102034038.22web.org/prof_relation.html
+### See demo : http://u102034038.22web.org/prof_relation.html
 
 Each node represents a professor. Color denotes different department.
 
