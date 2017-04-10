@@ -11,6 +11,8 @@ Stay your mouse pointer on the node and see the professor's name.
 Double click the node to see further information of the professor!
 <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/17636777_1445902458808057_265512404741467810_o.jpg?oh=682093600be2f9eeaccecaecb4f187d7&oe=5955F080" width="600">
 
+We also provide word cloud with abstract from different department across three years.
+<img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t31.0-8/17834965_1447954971936139_5657441217933979730_o.jpg?oh=bcea75e65ebc96c1fd226dc0f6d117de&oe=5957F1C3" width="600">
 ### Theses data 
 
 | field             |  Example            |
