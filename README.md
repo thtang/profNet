@@ -16,7 +16,7 @@ We also provide word cloud with abstract from different department across three 
 
 ### Want a comfortable one, click the link!
 https://public.tableau.com/profile/publish/TextMining-WordCloud/WordCloud#!/publish-confirm
-
+This is in collaboration with [rdolor.](https://github.com/rdolor/Text-Mining-WordCloud)
 ### Theses data 
 
 | field             |  Example            |
