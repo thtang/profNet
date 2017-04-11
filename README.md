@@ -32,6 +32,11 @@ In this project we create a professor relation netword based on the thesis data 
 
 ### See [demo](http://u102034038.22web.org/prof_relation.html)
 
+First, enter professor's name yor are interested in.
+<img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17834820_1449809048417398_8779158258621254176_o.jpg?oh=c736c1dfb87827f1588104d34d26dc99&oe=598953D1" width="500">
+
+Then Find the biggest node. **That's yor PROFESSOR!**
+
 Each node represents a professor. Color denotes different department.
 
 Stay your mouse pointer on the node and see the professor's name.
