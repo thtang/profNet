@@ -1,6 +1,6 @@
 # ProfNet : Are they friends?
 
-In this project we create a professor relation netword based on the thesis data of NTHU. Each professor is linked to other professors that once being **the oral commissioner** of one's students. The weights of linkages are derived from **the count** of being one's student's oral commissioner.
+In this project we create a professor relation netword based on the thesis data of NTHU. Each professor is linked to other professors that once being _**the oral commissioner**_ of one's students. The weights of linkages are derived from **the count** of being one's student's oral commissioner.
 <img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17880756_1449441631787473_6769363817670995549_o.jpg?oh=af3722d8f49c5b5893e982d8248cde19&oe=5998A557" width = "600">
 ### Theses data 
 
