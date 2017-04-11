@@ -88,7 +88,7 @@
                 .on("drag", dragged)
                 .on("end", dragended))
             .on("dblclick", function(d) {
-                $("#prof_info").append("<p id='prof_name'><h3><b>Professor name: </b>" + d.id + "<br><b>Department: </b>" + d.department + "</h3></p>");
+                $("#prof_info").append("<div id='prof_name'><h3><b>Professor name: </b>" + d.id + "<br><b>Department: </b>" + d.department + "</h3></div>");
                 $('#myModal').modal('toggle');
                 WordCloud(document.getElementById('my_canvas'), {
                     gridSize: Math.round(10 * $('#my_canvas').width()),
@@ -165,7 +165,7 @@
         <h4 class="modal-title"><b>Professor information</b></h4>
     </div>
     <div id="context_block" class="modal-body col-md-offset-2">
-        <img src="sys_1163_4248384_62741.gif" height="80" width="350"></img>
+        <img src="sys_1163_4248384_62741.gif" height="80" width="380"></img>
         <p>
             <div id="prof_info">
             </div>
