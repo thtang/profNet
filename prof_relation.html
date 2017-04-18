@@ -30,8 +30,13 @@
 
 </style>
 
-
-
+<div class="col-md-offset-4 col-xs-4">
+<h3>Enter Professor's name</h3>
+    <input class="form-control" id="targetNode" name="targetNode" type="text" />
+    <br>
+    <button type="button" class="btn btn-info" onclick="growNode()">grow node</button>
+    <button type="button" class="btn btn-info" onclick="shrinkNode()">shrink node</button>
+</div>
 <svg width="2560" height="2560"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -80,6 +85,7 @@
             .data(graph.nodes)
             .enter().append("circle")
             .attr("r", 5)
+            .attr("id",function(d){return d.id})
             .attr("fill", function(d) {
                 return color(d.group);
             })
@@ -155,7 +161,16 @@
         d.fx = null;
         d.fy = null;
     }
-
+    function growNode(){
+        var userInput = document.getElementById("targetNode");
+        var theNode = d3.select("#"+userInput.value);
+        theNode.attr("r", 20);
+    }
+    function shrinkNode(){
+        var userInput = document.getElementById("targetNode");
+        var theNode = d3.select("#"+userInput.value);
+        theNode.attr("r", 5);
+    }
 </script>
 
 <!-- Modal content-->
@@ -165,7 +180,7 @@
         <h4 class="modal-title"><b>Professor information</b></h4>
     </div>
     <div id="context_block" class="modal-body col-md-offset-2">
-        <img src="sys_1163_4248384_62741.gif" height="80" width="380"></img>
+        <img src="sys_1163_4248384_62741.gif" height="80" width="400"></img>
         <p>
             <div id="prof_info">
             </div>
