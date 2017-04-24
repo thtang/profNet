@@ -30,7 +30,7 @@ In this project we create a professor relation netword based on the thesis data 
 | 參考文獻   |[1] L. R. Melinda Smith, M. A. an...     |
 | 論文頁數   |  71     |
 
-### See [demo](http://u102034038.22web.org/prof_relation.html)
+### See [demo](http://u102034038.22web.org/prof_relation.html) (I used free host and the data is quite large, so please wait and press F5 for several times > < )
 
 First, enter professor's name yor are interested in.
 
