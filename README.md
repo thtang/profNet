@@ -35,14 +35,14 @@ In this project we create a professor relation netword based on the thesis data 
 
 First, enter professor's name yor are interested in.
 
-<img src="https://scontent.xx.fbcdn.net/v/t31.0-8/17834820_1449809048417398_8779158258621254176_o.jpg?oh=c736c1dfb87827f1588104d34d26dc99&oe=598953D1" width="500">
+<img src="https://github.com/thtang/profNet/blob/master/figure/f1.png" width="500">
 
 Then Find the biggest node. **That's yor PROFESSOR!**
 
 Each node represents a professor. Color denotes different department.
 
 Stay your mouse pointer on the node and see the professor's name.
-<img src="https://github.com/thtang/profNet/blob/master/figure/f1.png" width="600">
+<img src="https://github.com/thtang/profNet/blob/master/figure/f4.png" width="600">
 
 
 Double click the node to see further information of the professor!
